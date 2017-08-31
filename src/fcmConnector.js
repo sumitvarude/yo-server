@@ -7,7 +7,7 @@ var fcmConnector = {};
 
 var createMessage = function (messageToSend) {
   return {
-    to: messageToSend.token, // required fill with device token or topics
+    to: messageToSend.token ? messageToSend.token : "/topics/news", // required fill with device token or topics
     data: {
       your_custom_data_key: 'your_custom_data_value'
     },
