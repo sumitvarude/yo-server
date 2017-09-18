@@ -1,4 +1,5 @@
-var dispatcher = require("httpdispatcher");
+var HttpDispatcher = require('httpdispatcher');
+var dispatcher     = new HttpDispatcher();
 var fcmConnector = require("./fcmConnector.js").fcmConnector;
 
 dispatcher.onPost("/sendMessage", function (request, response) {
