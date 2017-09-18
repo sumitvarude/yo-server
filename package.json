@@ -10,6 +10,7 @@
   "author": "Sumit Varude",
   "license": "ISC",
   "dependencies": {
-    "fcm-push": "^1.1.2"
+    "fcm-push": "^1.1.2",
+    "httpdispatcher": "^2.1.0"
   }
 }
